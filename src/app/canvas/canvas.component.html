@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="game-over" *ngIf="this.world && world.overgameAnimation">
+        <button (click)="restart()" class="btn">RESTART</button>
+        <img src="../../assets/img/9.Intro _ Outro Image/_Game over_ screen/3.Game over.png" alt="">
+    </div>
+    <div class="Texte">
+        <button>Walking :&nbsp;  Arrow keys</button><br>
+        <button>Jump :&nbsp;  Spacebar</button><br>
+        <button>Throw Bottle :&nbsp;  D Key</button><br>
+    </div>
+    <canvas #canvasElement width="720" height="480"></canvas>
+
+</div>
